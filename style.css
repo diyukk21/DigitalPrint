@@ -921,7 +921,7 @@ nav.frame1 {
 }
 
 .judul5 {
-    font-size: clamp(1.9rem, 3vw, 2.45rem);
+    font-size: 1.5rem;
     font-weight: var(--text-strong);
     line-height: 1.25;
     text-align: center;
@@ -1028,11 +1028,11 @@ nav.frame1 {
     }
 
     .judul5 {
-        font-size: 1.55rem;
+        font-size: 0.95rem;
     }
 
     .deskripsi5 p {
-        font-size: 0.9rem;
+        font-size: 0.75rem;
     }
 
     .brand-img {
@@ -1305,7 +1305,6 @@ nav.frame1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-decoration: none;
-    padding: 10px
 }
 .footer-row i {
     min-width: 30px;
