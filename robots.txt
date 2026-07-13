@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://amaliakharunnisa458-lang.github.io/DigitalPrint/sitemap.xml
