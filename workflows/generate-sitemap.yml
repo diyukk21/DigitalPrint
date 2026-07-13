@@ -1,0 +1,16 @@
+name: Generate Sitemap
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-sitemap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: cicirello/generate-sitemap@v1
+        with:
+          base-url-path: https://diyukk21.github.io/DigitalPrint/
+          additional-extensions: pdf doc docx
